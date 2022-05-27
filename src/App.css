@@ -1,0 +1,85 @@
+.App{
+  text-align:center;
+}
+
+.container{
+  display : flex;
+}
+
+.input_field{
+  flex: .5;
+  min-width : 290px;
+  background-color:#323232;
+  color: white;
+
+}
+.input_query{
+  text-align:left;
+ border: 1px solid green;;
+  height : 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.input_query>input{
+  height: 35px;
+  width: 300px;
+  outline: none;
+  border-radius: 5px;
+  background-color: grey;
+  color: white;
+  border:1px solid white;
+  padding-left: 20px;
+}
+
+.input_query >input::placeholder {
+  color: white;
+}
+.input_query > button{
+  height: 35px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  width: 100px; 
+  padding: 3px;  
+  background-color: green;
+  
+}
+.input_query > button:hover{
+  background-color: rgb(8, 119, 8);
+  color:whitesmoke;
+}
+.rules{
+  flex:.5;
+  min-width : 290px;
+  background-color : #337ab7;
+  color: white;
+  padding: 20px;
+  text-align:left;
+}
+
+.rules >h2{
+  text-decoration: underline;
+}
+footer{
+  padding: 20px;
+  font-size: 14px;
+}
+
+.Note{
+  font-weight: 700;
+}
+
+
+@media screen and (max-width: 800px) {
+  .container {
+      flex-direction: column;
+    
+  }
+  .input_field{
+      min-height:400px;
+  }
+}
