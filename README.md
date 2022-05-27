@@ -46,9 +46,9 @@ import React,  {useState} from 'react';
 
 
 ## Page load time
-  The page load time of my application is 338ms.
+  The page load time of my application is 46ms.
 
   I calculated load time of my website by using this tool:
-  [Load time tool](https://tool.pingdom.com/#60407b8021400000)
+  [Load time tool](https://tool.pingdom.com/#60410cfa03800000)
 
   
