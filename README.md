@@ -1,7 +1,7 @@
 
 # SQL QUERY WEB APP
 
-This is a web-based application designed and implemnted in ReactJS which is capable of running SQL queries and displaying the results of said query.
+This is a web-based responsive application designed and implemnted in ReactJS which is capable of running SQL queries and displaying the results of said query.
 I have designed my own queries whose query syntax rules are given below:-
 
 ## GET QUERY
