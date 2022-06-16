@@ -114,7 +114,7 @@ function App() {
   }
   return (
     <div className="App">
-      <h2>Task - Atlan Frontend Engineer</h2>
+      <h2>Basic Query App</h2>
       <div className='container' >
         <div className="input_field" >
           <div className="input_query">
